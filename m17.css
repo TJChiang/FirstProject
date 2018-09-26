@@ -1,0 +1,451 @@
+body {
+    background-color: rbg(247, 247, 247);
+}
+nav {
+    font-size: 14px;
+    margin: 0px auto;
+    height: 70px;
+}
+
+
+input {
+    outline: none;
+}
+input[type=search] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: inherit;
+    font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+    display: none;
+}
+input[type=search] {
+    background: rgb(250, 250, 250) no-repeat 9px center;
+    background-image: url(https://i.imgur.com/Nuv9xgH.png);
+    background-size: 23px;
+    background-position: 7px 60%;
+    border: solid 1px rgb(235, 235, 235);
+    border-radius: 4px;
+    border-image: initial;
+    padding: 5px 10px 5px 37px;
+    width: 180px;
+    height: 40px;
+    transition: all .25s;
+}
+input[type=search]:focus {
+    width: 280px;
+    background-color: #fff;
+    border-color: rgb(217, 217, 217);
+}
+input::-webkit-input-placeholder {
+    color: #999;
+}
+
+
+.container {
+    margin: 0px auto;
+    max-width: 1324px;
+}
+.navbar_div {
+    height: 70px;
+}
+.navfunc {
+    height: 100%;
+    line-height: 53px;
+}
+.register {
+    border: solid 2px rgba(243, 56, 9, 0.87);
+    border-radius: 10px; 
+    padding: 4px;
+    width: 80px;
+    text-align: center;
+}
+.login {
+    padding-top: 20px;
+    margin: 0px 6px;
+}
+.Navright {
+    margin-left: 30px;
+}
+.nav-item.dropdown:hover {
+    background-color: rgb(250, 250, 250);
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar .nav {
+    height: 100%;
+}
+
+
+#navbarSupportedContent {
+    height: 100%;
+}
+#nav17 {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    background-color: white;
+}
+#NavContainer {
+    height: 100%;
+    padding: 0px 32px;
+}
+#navbar_a {
+    width: 44px;
+    height: 44px;
+}
+#navbar_a_icon {
+    width: 100%;
+    height: 100%;
+}
+#navul {
+    width: 360px;
+}
+#navbar_ul_first3 {
+    margin: 0px 0px 0px 30px;
+}
+
+.row .middle {
+    height: calc(100vh - 71px);
+    margin-top: 71px;
+}
+
+#ChContainer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#ChContainer .left {
+    width: 360px;
+}
+
+#ChContainer .left .userInfo {
+    height: 248px;
+    padding: 20px 16px;
+    border-style: solid; 
+    border-width: 1px;
+    border-color:rgb(230, 230, 230);
+    border-radius: 4px;
+}
+
+#ChContainer .left .userInfo .userContent {
+    display: flex;
+}
+
+#ChContainer .left .userInfo .userContent .right {
+    margin: 0 10px;
+}
+
+#ChContainer .left .userInfo .userContent .userImg {
+    width: 48px;
+    height: 48px;
+    border: solid 1px rgb(235, 235, 235);
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://assets-17app.akamaized.net/THUMBNAIL_B20DD61E-3157-415C-B8DB-9F231CDC08A9.jpg"), url("https://webcdn.17app.co/17live/ig-default.svg");
+}
+
+#ChContainer .left .userInfo a {
+    color: #343038;
+}
+
+#ChContainer .left .userInfo a:hover {
+    text-decoration: none;
+}
+
+#ChContainer .left .userInfo .userRate {
+    height: 20px;
+    width: 44px;
+    font-size: 12px;
+    text-align: center;
+    background-color: rgb(118, 154, 233);
+    padding: 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-image: initial;
+    border-radius: 4px;
+    box-sizing: inherit;
+    margin-left: 2px;
+}
+
+#ChContainer .left .userInfo .userRate > svg {
+    width: 14px;
+    height: 14px;
+    vertical-align: inherit;
+    margin-left: 3px;
+}
+
+#ChContainer .left .userInfo .userRate:after {
+    content: "55";
+    font-size: 12px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    letter-spacing: normal;
+    margin-right: 3px;
+    vertical-align: text-bottom;
+}
+
+#ChContainer .left .userInfo .userContent .right .bottom {
+    font-size: 12px;
+    color: rgb(111, 103, 119);
+    margin-top: 5px;
+}
+
+#ChContainer .left .userInfo .userDescribe {
+    width: 100%;
+    height: 86px;
+    font-weight: 500;
+    line-height: 1.57;
+    font-size: 14px;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    flex: 1 1 0%;
+    margin: 20px 0px;
+    overflow-wrap: break-all;
+    color: rgb(113, 103, 119);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(22, 21, 21, 0.637);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track:hover {
+    background-color: lightgray;
+}
+
+#ChContainer .left .userInfo .followBtn button{
+    width: 100%;
+    font-size: 14px;
+    color: rgb(40, 35, 45);
+    border-color: rgb(230, 230, 230);
+}
+
+#ChContainer .left .hot {
+    margin-top: 20px;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(230, 230, 230);
+    border-image: initial;
+    padding: 20px 16px;
+}
+
+#ChContainer .left .hot h3{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 0.88;
+    color: rgb(40, 35, 45);
+    margin: 0 0 20px;
+}
+
+#ChContainer .left .hot .userList {
+    display: flex;
+    color: rgb(111, 103, 119);
+    font-size: 14px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    overflow-wrap: break-all;
+    height: 290px;
+    box-shadow: none;
+    margin: -6px;
+}
+
+#ChContainer .left .hot .userList .userList-items {
+    width: 50%;
+    flex-basis: 50%;
+}
+
+#ChContainer .left .hot .userList .userList-items .user {
+    margin: 10px;
+    box-shadow: rgba(40, 35, 45, 0.3) 0px 3px 5px 1px;
+    border: 1px solid rgb(111, 103, 119);
+    min-height: 145px;
+    border-radius: 10px;
+}
+
+#ChContainer .mid {
+    margin-left: 20px;
+    border-radius: 4px;
+    background-image: url("https://17.live/assets/e4923267236833b4f875e42de9e50dbc.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    width: 355px;
+    height: 622px;
+}
+
+#ChContainer .mid .live {
+    width: 100px;
+    height: 96px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#ChContainer .mid .live::after {
+    content: "";
+    width: 100%;
+    height: 864px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    will-change: transform;
+    background-size: 100%;
+    background-image: url("https://17.live/assets/e1f6196d7978247d1ee183eafb309ebe.png");
+    background-repeat: no-repeat;
+    animation-name: liveFrames;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(9, end); 
+}
+
+@keyframes liveFrames {
+    from {transform: translateY(-0%);}
+    to   {transform: translateY(-100%);}
+}
+
+#ChContainer .rightside {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    width: 360px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(230, 230, 230);
+    border-image: initial;
+    overflow: hidden;
+}
+
+#ChContainer .rightside ul {
+    width: 100%;
+}
+
+#ChContainer .rightside .nav {
+    justify-content: center;
+    border: 0;
+    height: 100%;
+}
+
+#ChContainer .rightside .nav-item {
+    width: 33%;
+    position: relative;
+}
+
+#ChContainer .rightside .nav-item a {
+    border: 0;
+    text-align: center;
+    color: rgb(169, 164, 176);
+    font-size: 14px;
+    position: relative;
+    padding: 14px;
+}
+
+#ChContainer .rightside .nav-item a:after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    width: 1px;
+    height: 1.3em;
+    background-color: rgb(210, 210, 215);
+}
+
+#ChContainer .rightside .nav-item:last-child a:after {
+    display: none;
+}
+
+#ChContainer .rightside .nav-item.active:after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    display: block;
+    background-color: rgb(250, 250, 250);
+    bottom: 0;
+    box-shadow: rgb(230, 230, 230) 1px 1px 1px 0px inset;
+    left: 50%;
+    transform: translate(-50%, 50%) rotate(45deg);
+    z-index: 1;
+}
+
+#ChContainer .rightside .nav-item.active a {
+    color: rgb(40, 35, 45);
+}
+
+
+#ChContainer .rightside .message {
+    height: calc( 100% - 56px );
+    background-color: rgb(250, 250, 250);
+    border-top: 1px solid rgb(230, 230, 230);
+    position: relative;
+}
+
+#ChContainer .rightside .message .notLive {
+    width: 145px;
+    height: 101px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(calc(-50% - 78px));
+}
+
+#ChContainer .rightside .message .notLive .txt {
+    color: rgb(169, 164, 176);
+    font-size: 14px;
+    margin-top: 14px;
+}
+
+#ChContainer .rightside .message .sendMsgBox {
+    padding: 14px 14px 18px 14px;
+    position: absolute;
+    bottom: 0;
+    width: 100%
+}
+
+#ChContainer .rightside .message .sendMsgBox .txtArea {
+    color: rgb(111, 103, 119);
+    width: 100%;
+    height: 46px;
+    resize: none;
+    display: block;
+    background-color: rgb(247, 247, 247);
+    padding: 10px 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(235, 235, 235);
+    border-radius: 4px;
+}
+
+#ChContainer .rightside .NavTable {
+    width: 100%;
+    height: 56px;
+}

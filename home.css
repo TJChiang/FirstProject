@@ -1,0 +1,299 @@
+body {
+    background: rbg(247, 247, 247);
+}
+nav {
+    font-size: 14px;
+    margin: 0px auto;
+    height: 70px;
+    border-bottom: 1px solid rgb(242, 242, 242);
+}
+
+
+input {
+    outline: none;
+}
+input[type=search] {
+    -webkit-appearance: textfield;
+    box-sizing: inherit;
+    font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+    display: none;
+}
+input[type=search] {
+    background: rgb(250, 250, 250) no-repeat 9px center;
+    background-image: url(https://i.imgur.com/Nuv9xgH.png);
+    background-size: 23px;
+    background-position: 7px 60%;
+    border: solid 1px rgb(235, 235, 235);
+    border-radius: 4px;
+    border-image: initial;
+    padding: 5px 10px 5px 37px;
+    width: 180px;
+    height: 40px;
+    transition: all .25s;
+}
+input[type=search]:focus {
+    width: 280px;
+    background-color: #fff;
+    border-color: rgb(217, 217, 217);
+}
+input::-webkit-input-placeholder {
+    color: #999;
+}
+
+
+.container {
+    margin: 0px auto;
+    max-width: 1324px;
+}
+.navbar_div {
+    height: 70px;
+}
+.navfunc {
+    height: 100%;
+    line-height: 53px;
+}
+.register {
+    border: solid 2px rgba(243, 56, 9, 0.87);
+    border-radius: 10px; 
+    padding: 4px;
+    width: 80px;
+    text-align: center;
+}
+.login {
+    margin: auto 6px;
+}
+.Navright {
+    margin-left: 30px;
+}
+.nav-item.dropdown:hover {
+    background-color: rgb(250, 250, 250);
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar .nav {
+    height: 100%;
+}
+
+#navbarSupportedContent {
+    height: 100%;
+}
+#nav17 {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    background-color: white;
+}
+#NavContainer {
+    height: 100%;
+    padding: 0px 32px;
+}
+#navbar_a {
+    width: 44px;
+    height: 44px;
+}
+#navbar_a_icon {
+    width: 100%;
+    height: 100%;
+}
+#navul {
+    width: 360px;
+}
+#navbar_ul_first3 {
+    margin: 0px 0px 0px 30px;
+}
+
+.ChContainer {
+    max-width: 1100px;
+}
+
+.ChContainer .row.top {
+    height: 540px;
+    margin-bottom: 30px;
+    padding: 30px 0px;
+    box-sizing: content-box;
+}
+.ChContainer .row.top .left {
+    background-image: url("https://17.live/assets/e4923267236833b4f875e42de9e50dbc.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 90%;
+}
+.ChContainer .row.top .left .live {
+    width: 100px;
+    height: 96px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.ChContainer .row.top .left .live::after {
+    content: "";
+    width: 100%;
+    height: 864px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    will-change: transform;
+    background-size: 100%;
+    background-image:url("https://17.live/assets/e1f6196d7978247d1ee183eafb309ebe.png");
+    background-repeat: no-repeat;
+    animation-name: liveFrames;
+    animation-duration: 0.5s;
+    animation-timing-function: steps(9, end);
+    animation-iteration-count: infinite;
+}
+@keyframes liveFrames {
+    from {transform: translateY(-0%);}
+    to   {transform: translateY(-100%);}
+}
+
+.ChContainer .row.top .right {
+    width: 10%;
+}
+.ChContainer .row.top .right .liveUserList {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    box-shadow: none;
+    margin-left: 15%;
+}
+.ChContainer .row.top .right .liveUserList .UserList-item {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    width: 100%;
+    padding: 50% 0;
+    background-color: rgb(248, 248, 248);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 10px 1px;
+    border: 1px solid rgb(242, 242, 242);
+    background-size: 105%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://assets-17app.akamaized.net/THUMBNAIL_B20DD61E-3157-415C-B8DB-9F231CDC08A9.jpg"), url("https://webcdn.17app.co/17live/ig-default.svg");
+}
+
+.ChWrapper {
+    background-color: #f7f7f7;
+}
+.ChWrapper .navTab {
+    background-color: white;
+}
+#ChNavTab {
+    width: fit-content;
+    margin: 0 auto;
+    border: 0px;
+}
+#ChNavTab .nav-link {
+    color: rgb(169, 164, 176);
+    margin: 21px 32px;
+    padding: 0;
+    border: 0;
+    position: relative;
+}
+#ChNavTab .nav-link:hover {
+    color: rgb(40, 35, 45);
+}
+#ChNavTab .nav-link.active {
+    font-weight: bold;
+    color: rgb(40, 35, 45);
+}
+#ChNavTab .nav-link.active::after {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 3px;
+    background-color: black;
+    left: 0;
+    top: 100%;
+    margin-top: 20px;
+}
+
+.ChContainer .row.middle {
+    margin-top: 40px;
+}
+.ChContainer .row.middle .liveUserList {
+    font-size: 0px;
+}
+.ChContainer .row.middle .UserList-item {
+    width: 25%;
+    display: inline-block;
+}
+.ChContainer .row.middle .UserList-item .userWrapper {
+    padding: 50% 0;
+    position: relative;
+}
+.ChContainer .row.middle .UserList-item .userWrapper .user {
+    position: absolute;
+    top: 0;
+    height: calc(100% - 30px);
+    width: calc(100% - 30px);
+    margin: 15px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 10px 1px;
+    border: 1px solid rgb(242, 242, 242);
+    border-radius: 10px;
+    background-size: 105%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://assets-17app.akamaized.net/THUMBNAIL_B20DD61E-3157-415C-B8DB-9F231CDC08A9.jpg"), url("https://webcdn.17app.co/17live/ig-default.svg");
+}
+.ChContainer .row.middle .more {
+    text-align: center;
+}
+.ChContainer .row.middle .more .btn {
+    margin: 40px 0;
+}
+
+.ChWrapper.footer {
+    background-color: white;
+}
+.footer .row.bottom .footerWrapper {
+    margin-top: 80px;
+    text-align: center;
+}
+.footer .row.bottom .footerWrapper .iconSvg {
+    display: inline-block;
+    margin-bottom: 32px;
+}
+.footer .row.bottom .footerWrapper .appStores {
+    margin-bottom: 60px;
+}
+.copyRightContainer {
+    font-size: 0px;
+    padding: 0 30px;
+    border-top: 1px solid rgb(242, 242, 242);
+}
+.copyRightContainer .CRLeft {
+    text-align: left;
+}
+.copyRightContainer .CRRight {
+    text-align: right;
+}
+.copyRightContainer .CRLeft, .copyRightContainer .CRRight {
+    display: inline-block;
+    width: 50%;
+    font-size: 12px;
+    height: 60px;
+    vertical-align: top;
+}
+.copyRightContainer .CRLeft .content {
+    margin-right: 40px;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    display: inline-block;
+}
+.copyRightContainer .CRLeft .content a {
+    color: #343038;
+}
+.copyRightContainer .CRLeft .content a:hover {
+    text-decoration: none;
+}
