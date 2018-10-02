@@ -118,14 +118,15 @@ input::-webkit-input-placeholder {
     box-sizing: content-box;
 }
 .ChContainer .row.top .left {
-    background-image: url("https://17.live/assets/e4923267236833b4f875e42de9e50dbc.png");
+    /* background-image: url("https://17.live/assets/e4923267236833b4f875e42de9e50dbc.png");    Png missing*/
+    background-color: black;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     width: 90%;
 }
-.ChContainer .row.top .left .live {
+/* .ChContainer .row.top .left .live {
     width: 100px;
     height: 96px;
     position: relative;
@@ -133,8 +134,9 @@ input::-webkit-input-placeholder {
     margin: 0 auto;
     top: 50%;
     transform: translateY(-50%);
-}
-.ChContainer .row.top .left .live::after {
+} */
+/* Animation missing */
+/* .ChContainer .row.top .left .live::after {
     content: "";
     width: 100%;
     height: 864px;
@@ -154,7 +156,7 @@ input::-webkit-input-placeholder {
 @keyframes liveFrames {
     from {transform: translateY(-0%);}
     to   {transform: translateY(-100%);}
-}
+} */
 
 .ChContainer .row.top .right {
     width: 10%;
