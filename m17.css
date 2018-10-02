@@ -288,27 +288,23 @@ input::-webkit-input-placeholder {
 #ChContainer .mid {
     margin-left: 20px;
     border-radius: 4px;
-    background-image: url("https://17.live/assets/e4923267236833b4f875e42de9e50dbc.png");
-    background-position: center;
+    background-color: rgb(111, 103, 119);
     background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    background-position: center bottom;	
     overflow: hidden;
-    width: 355px;
-    height: 622px;
 }
 
 #ChContainer .mid .live {
-    width: 100px;
-    height: 96px;
-    position: relative;
-    overflow: hidden;
-    margin: 0 auto;
-    top: 50%;
-    transform: translateY(-50%);
+    width: 349.499px;
+    height: 100%;
+    background-image: url(https://assets-17app.akamaized.net/THUMBNAIL_D3F37D77-1C3C-4494-8448-EF5DD29EB386.jpg);
+    background-size: cover;
+    filter: grayscale(100%) blur(30px);
+    opacity: 0.5;
+    background-position: center center;
 }
 
-#ChContainer .mid .live::after {
+/* #ChContainer .mid .live::after {
     content: "";
     width: 100%;
     height: 864px;
@@ -329,7 +325,7 @@ input::-webkit-input-placeholder {
 @keyframes liveFrames {
     from {transform: translateY(-0%);}
     to   {transform: translateY(-100%);}
-}
+} */
 
 #ChContainer .rightside {
     margin-left: 20px;
